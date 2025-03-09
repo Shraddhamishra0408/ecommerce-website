@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo h2 {
+    margin: 0;
+    font-size: 30px; /* Increase font size */
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinks li {
+    display: inline;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+  }
+  
+  .icon {
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+  }
+  
+  .icon:hover {
+    color: #f39c12; /* Change color on hover */
+  }
+  

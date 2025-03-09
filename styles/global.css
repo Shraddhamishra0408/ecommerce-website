@@ -1,0 +1,14 @@
+/* Prevent horizontal scrolling */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disable left-right movement */
+    width: 100%;
+  }
+  
+  /* Ensure all elements fit inside the screen */
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
